@@ -88,6 +88,9 @@ ul {
   padding-left: 15px;
   padding-right: 15px;
 }
+.section {
+  padding-top: 94px;
+}
 .site-nav {
   display: flex;
   margin-left: 93px;
@@ -113,7 +116,7 @@ ul {
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: var(--background-name);
-  margin-bottom: 94px;
+  padding-bottom: 200px;
 }
 .hero-title {
   margin-top: 0;
@@ -217,7 +220,13 @@ ul {
 .adress {
   color: var(--white-color);
   margin-bottom: 9px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
 }
+
 .nav-footer {
   color: var(--niz-nav);
   font-size: 14px;

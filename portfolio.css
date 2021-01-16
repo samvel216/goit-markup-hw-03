@@ -102,7 +102,7 @@
   }
   .shapka{
     margin-bottom: 94px;
-    border: 1px solid var(--border-color);
+    border-bottom-style: 1px solid var(--border-color);
   }
   ul {
     list-style: none;
@@ -144,7 +144,7 @@
     
   }
   .section-img{
-    margin-bottom: 94px;
+    padding-bottom: 94px;
    }
   .imges {
     display: flex;
@@ -218,6 +218,13 @@
   }
   .name-job {
     padding: 20px 24px;
+  }
+  .adress{
+    font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
   }
   .logotip {
     font-weight: bold;
