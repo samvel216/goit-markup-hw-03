@@ -90,6 +90,7 @@ ul {
 }
 .section {
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 .site-nav {
   display: flex;
@@ -137,7 +138,6 @@ ul {
   font-size: 14px;
   line-height: 1.71;
   margin-top: 0;
-  margin-bottom: 94px;
   display: flex;
 }
 .feature-list {
