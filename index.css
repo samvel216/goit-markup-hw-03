@@ -160,6 +160,9 @@ ul {
   display: flex;
   margin-left: -30px;
 }
+.name-team {
+  padding-top: 30px;
+}
 .name-team,
 .professional-name {
   text-align: center;
