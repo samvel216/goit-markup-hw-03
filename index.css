@@ -36,10 +36,12 @@ p {
   text-decoration: none;
   color: var(--nav-color);
   margin-right: 93px;
+  padding: 32px 0px;
 }
 .list {
   list-style: none;
 }
+
 ul {
   margin: 0px;
   padding: 0px;
@@ -58,28 +60,39 @@ ul {
   display: flex;
   margin-left: auto;
 }
-.header-nav .item {
+.header-nav .link {
+  color: var(--primary-color);
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+  text-decoration: none;
   padding: 32px 0px;
+ 
+}
+.header-nav .item {
+  
   margin-right: 50px;
 }
 .header-nav .item:last-child {
   margin: 0px;
 }
-.header-nav-contacts .item {
+.header-nav-contacts .link {
+  color: var(--no-primary-color);
+  text-decoration: none;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: var(--no-primary-color);
   padding: 32px 0px;
+}
+.header-nav-contacts .item {
+  
   margin-right: 50px;
 }
+
 .header-nav-contacts .item:last-child {
   margin: 0px;
 }
@@ -89,12 +102,12 @@ ul {
 .header-nav-contacts .hover-item {
   color: var(--nav-color);
 }
-.header-nav .item:hover,
-.header-nav .item:focus {
+.header-nav .link:hover,
+.header-nav .link:focus {
   color: var(--nav-color);
 }
-.header-nav-contacts .item:hover,
-.header-nav-contacts .item:focus {
+.header-nav-contacts .link:hover,
+.header-nav-contacts .link:focus {
   color: var(--nav-color);
 }
 .header-nav .hover-item:hover,
@@ -115,8 +128,8 @@ ul {
 /* Стили героя*/
 .section-hero {
   background-color: var(--background);
-  padding-bottom: 200px;
-  padding-top: 200px;
+  
+  padding: 200px 215px;
 }
 .hero-title {
   font-size: 44px;
@@ -148,6 +161,8 @@ ul {
 
 /*Секция преимуществ*/
 .section-advantages {
+  padding-right: 215px;
+  padding-left: 215px;
   padding-top: 94px;
 }
 .advantages-list {
@@ -179,6 +194,8 @@ ul {
 .section-occupation {
   padding-top: 94px;
   padding-bottom: 94px;
+  padding-right: 215px;
+  padding-left: 215px;
 }
 .occupation-title {
   font-size: 36px;
@@ -204,6 +221,8 @@ ul {
   padding-top: 94px;
   background: #f5f4fa;
   padding-bottom: 94px;
+  padding-right: 215px;
+  padding-left: 215px;
 }
 .team-title {
   text-align: center;

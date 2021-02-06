@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
@@ -14,29 +18,40 @@
   </head>
   <body>
     <header class="header">
-      <nav class="container site-nav">
+      <div class="container site-nav">
         <a class="header-logo" href=""
           >Web<span class="header-logo-span">Studio</span></a
         >
-        <ul class="header-nav list">
-          <li class="item hover-item">Студия</li>
-          <li class="item">Портфолио</li>
-          <li class="item">Контакты</li>
-        </ul>
-
+        <nav>
+          <ul class="header-nav list">
+            <li class="item">
+              <a href="./index.html" class="link hover-item">Студия</a>
+            </li>
+            <li class="item">
+              <a href="./portfolio.html" class="link">Портфолио</a>
+            </li>
+            <li class="item">
+              <a href="" class="link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
         <ul class="header-nav-contacts list">
-          <li class="item hover-item">info@devstudio.com</li>
-          <li class="item">+38 096 111 11 11</li>
+          <li class="item hover-item">
+            <a href="" class="link hover-item">info@devstudio.com</a>
+          </li>
+          <li class="item">
+            <a href="" class="link">+38 096 111 11 11</a>
+          </li>
         </ul>
-      </nav>
+      </div>
     </header>
     <main>
       <section class="section-hero">
         <div class="container">
-          <h2 class="hero-title">
+          <h1 class="hero-title">
             ЭФФЕКТИВНЫЕ РЕШЕНИЯ<br />ДЛЯ ВАШЕГО БИЗНЕСА
-          </h2>
-          <button class="hero-button">Заказать услугу</button>
+          </h1>
+          <button type="button" class="hero-button">Заказать услугу</button>
         </div>
       </section>
       <section class="section-advantages">
@@ -78,13 +93,21 @@
           <h2 class="occupation-title">Чем мы занимаемся</h2>
           <ul class="occupation-list list">
             <li class="item">
-              <img src="./images/img.png" width="370px" alt="" />
+              <img
+                src="./images/img.png"
+                width="370"
+                alt="планшет на клавиатуре"
+              />
             </li>
             <li class="item">
-              <img src="./images/img(1).png" width="370px" alt="" />
+              <img
+                src="./images/img(1).png"
+                width="370"
+                alt="ноутбук и телефон"
+              />
             </li>
             <li class="item">
-              <img src="./images/img(2).png" width="370px" alt="" />
+              <img src="./images/img(2).png" width="370" alt="планшет" />
             </li>
           </ul>
         </div>
@@ -94,22 +117,22 @@
           <h2 class="team-title">Наша команда</h2>
           <ul class="list team-list">
             <li class="item">
-              <img src="./images/img(3).png" width="270px" alt="" />
+              <img src="./images/img(3).png" width="270" alt="Лицо Игоря" />
               <h3 class="team-name">Игорь Демьяненко</h3>
               <p class="team-job">Product Designer</p>
             </li>
             <li class="item">
-              <img src="./images/img(4).png" width="270px" alt="" />
+              <img src="./images/img(4).png" width="270" alt="Лицо Ольги" />
               <h3 class="team-name">Ольга Репина</h3>
               <p class="team-job">Frontend Developer</p>
             </li>
             <li class="item">
-              <img src="./images/img(5).png" width="270px" alt="" />
+              <img src="./images/img(5).png" width="270" alt="Лицо Николая" />
               <h3 class="team-name">Николай Тарасов</h3>
               <p class="team-job">Marketing</p>
             </li>
             <li class="item">
-              <img src="./images/img(6).png" width="270px" alt="" />
+              <img src="./images/img(6).png" width="270" alt="Лицо Михаила" />
               <h3 class="team-name">Михаил Ермаков</h3>
               <p class="team-job">UI Designer</p>
             </li>
@@ -119,7 +142,7 @@
     </main>
 
     <footer class="footer">
-      <nav class="footer-nav container">
+      <div class="container">
         <a class="footer-logo" href=""
           >Web<span class="footer-logo-span">Studio</span></a
         >
@@ -129,7 +152,7 @@
           <li class="item">info@example.com</li>
           <li class="item">+38 099 111 11 11</li>
         </ul>
-      </nav>
+      </div>
     </footer>
   </body>
 </html>
