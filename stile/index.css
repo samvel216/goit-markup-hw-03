@@ -69,10 +69,8 @@ ul {
   letter-spacing: 0.02em;
   text-decoration: none;
   padding: 32px 0px;
- 
 }
 .header-nav .item {
-  
   margin-right: 50px;
 }
 .header-nav .item:last-child {
@@ -80,7 +78,7 @@ ul {
 }
 .header-nav-contacts .link {
   color: var(--no-primary-color);
-  text-decoration: none;
+
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -89,7 +87,6 @@ ul {
   padding: 32px 0px;
 }
 .header-nav-contacts .item {
-  
   margin-right: 50px;
 }
 
@@ -128,7 +125,7 @@ ul {
 /* Стили героя*/
 .section-hero {
   background-color: var(--background);
-  
+
   padding: 200px 215px;
 }
 .hero-title {
@@ -164,6 +161,7 @@ ul {
   padding-right: 215px;
   padding-left: 215px;
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 .advantages-list {
   display: flex;
@@ -192,7 +190,6 @@ ul {
 }
 /*Секция  занятий */
 .section-occupation {
-  padding-top: 94px;
   padding-bottom: 94px;
   padding-right: 215px;
   padding-left: 215px;
@@ -254,8 +251,10 @@ ul {
   font-weight: 500;
   line-height: 19px;
   letter-spacing: 0.03em;
-  padding-top: 30px;
   margin-bottom: 10px;
+}
+.name-container {
+  padding-top: 30px;
 }
 .team-job {
   font-size: 16px;
@@ -280,7 +279,6 @@ ul {
   letter-spacing: 0.03em;
   text-decoration: none;
   color: var(--nav-color);
-  
 }
 .footer-logo-span {
   color: var(--white);
@@ -294,13 +292,18 @@ ul {
   letter-spacing: 0.03em;
   color: var(--white);
 }
-.footer-list .item {
+.footer-list .link {
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.03em;
- color: var(--no-primary-color);
+  color: var(--no-primary-color);
+  text-decoration: none;
+}
+.footer-list .item {
   margin-top: 9px;
-
-
+}
+.footer-list .link:hover {
+  color: var(--nav-color);
+}

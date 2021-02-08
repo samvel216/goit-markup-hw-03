@@ -8,7 +8,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./portfolio.css" />
+    <link rel="stylesheet" href="./stile/portfolio.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
@@ -46,6 +46,7 @@
     <main>
       <section class="section-img">
         <div class="container">
+          <h2 hidden>Наши услуги</h2>
           <ul class="list-button list">
             <li class="item">
               <button type="button" class="section-button">Все</button>
@@ -70,48 +71,66 @@
           <ul class="list-img">
             <li class="list item-img">
               <img src="./img/img(9).jpg" width="370" alt="картинка1" />
-              <h3 class="list-name">Технокряк</h3>
-              <p class="list-text">Веб-сайт</p>
+              <div class="img-container">
+                <h3 class="list-name">Технокряк</h3>
+                <p class="list-text">Веб-сайт</p>
+              </div>
             </li>
             <li class="list item-img">
               <img src="./img/imag(1).png" width="370" alt="картинка2" />
-              <h3 class="list-name">Постер New Orlean vs Golden Star</h3>
-              <p class="list-text">Дизайн</p>
+              <div class="img-container">
+                <h3 class="list-name">Постер New Orlean vs Golden Star</h3>
+                <p class="list-text">Дизайн</p>
+              </div>
             </li>
             <li class="list item-img">
               <img src="./img/img(2).jpg" width="370" alt="картинка3" />
-              <h3 class="list-name">Ресторан Seafood</h3>
-              <p class="list-text">Приложение</p>
+              <div class="img-container">
+                <h3 class="list-name">Ресторан Seafood</h3>
+                <p class="list-text">Приложение</p>
+              </div>
             </li>
             <li class="list item-img">
               <img src="./img/img(4).jpg" width="370" alt="картинка4" />
-              <h3 class="list-name">Проект Prime</h3>
-              <p class="list-text">Маркетинг</p>
+              <div class="img-container">
+                <h3 class="list-name">Проект Prime</h3>
+                <p class="list-text">Маркетинг</p>
+              </div>
             </li>
             <li class="list item-img">
               <img src="./img/img(5).jpg" width="370" alt="картинка5" />
-              <h3 class="list-name">Проект Boxes</h3>
-              <p class="list-text">Приложение</p>
+              <div class="img-container">
+                <h3 class="list-name">Проект Boxes</h3>
+                <p class="list-text">Приложение</p>
+              </div>
             </li>
             <li class="list item-img">
               <img src="./img/img(10).jpg" width="370" alt="картинка6" />
-              <h3 class="list-name">Inspiration has no Borders</h3>
-              <p class="list-text">Веб-сайт</p>
+              <div class="img-container">
+                <h3 class="list-name">Inspiration has no Borders</h3>
+                <p class="list-text">Веб-сайт</p>
+              </div>
             </li>
             <li class="list item-img">
               <img src="./img/img(6).jpg" width="370" alt="картинка7" />
-              <h3 class="list-name">Издание Limited Edition</h3>
-              <p class="list-text">Дизайн</p>
+              <div class="img-container">
+                <h3 class="list-name">Издание Limited Edition</h3>
+                <p class="list-text">Дизайн</p>
+              </div>
             </li>
             <li class="list item-img">
               <img src="./img/img(7).jpg" width="370" alt="картинка8" />
-              <h3 class="list-name">Проект LAB</h3>
-              <p class="list-text">Маркетинг</p>
+              <div class="img-container">
+                <h3 class="list-name">Проект LAB</h3>
+                <p class="list-text">Маркетинг</p>
+              </div>
             </li>
             <li class="list item-img">
               <img src="./img/img(8).jpg" width="370" alt="картинка9" />
-              <h3 class="list-name">Growing Business</h3>
-              <p class="list-text">Приложение</p>
+              <div class="img-container">
+                <h3 class="list-name">Growing Business</h3>
+                <p class="list-text">Приложение</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -119,15 +138,20 @@
     </main>
     <footer class="footer">
       <div class="container">
-        <a class="footer-logo" href=""
+        <a class="footer-logo" href="./portfolio.html"
           >Web<span class="footer-logo-span">Studio</span></a
         >
-        <address class="footer-adress">г. Киев, пр-т Леси Украинки, 26</address>
-
-        <ul class="list footer-list">
-          <li class="item">info@example.com</li>
-          <li class="item">+38 099 111 11 11</li>
-        </ul>
+        <address class="footer-adress">
+          г. Киев, пр-т Леси Украинки, 26
+          <ul class="list footer-list">
+            <li class="item">
+              <a href="" class="link">info@example.com</a>
+            </li>
+            <li class="item">
+              <a href="" class="link">+38 099 111 11 11</a>
+            </li>
+          </ul>
+        </address>
       </div>
     </footer>
   </body>
